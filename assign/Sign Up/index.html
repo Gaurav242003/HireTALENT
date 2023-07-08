@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="logon.jpg">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Ubuntu&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="leg">Welcome to HireTALENT</div>
+    <div class="background">
+        <div class="box1">
+            <img src="welcome.png" alt="Mavericks" class="logo">
+        </div>
+        <div class="box2">
+            
+            <form action="#">
+                <div id="login-box">
+
+                    
+                    <div class="parent">
+                        <div class="name">
+                            <div class="firstName">
+                                <div class='lab'><label for="firstName">First Name</label></div>
+                                <div class='inp'><input type="text" id="firstName" name="firstName"></div>
+                            </div>
+                            <div class="lastName">
+                                <div class='lab>'><label for="lastName">Last Name</label></div>
+                                <div class="inp"><input type="text" id="lastName" name="lastName"></div>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <div class="Phone">
+                                <div class='lab>'><label for="phone">Phone Number</label></div>
+                                <div class="inp"><input type="tel" id="phone" name="phone" minlength="10"
+                                    maxlength="10"></div>
+                            </div>
+                            <div class="Email">
+                                <div class='lab>'><label for="email">Email*</label></div>
+                                <div class="inp"><input type="email" id="email" name="email" required></div>
+                            </div>
+                            
+                        </div>
+                        <div class="credentials">
+                            <div id="spassword">
+                                <div class='lab error'><label for="password">Password*</label></div>
+                                <div class="inp"><input type="password" id="password" name="pass" required></div>
+                            </div>
+                           
+                        </div>
+
+                    </div>
+                </div>
+                <div class="sButton">
+                    <button type="submit">Create Account</button>
+                </div>
+
+                <div class="login">
+                    
+                        <p>Already have an account? <a href="../Login/index.html">Login</a></p>
+                    
+                    
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

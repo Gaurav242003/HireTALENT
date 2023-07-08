@@ -1,0 +1,98 @@
+/* Reset some default styles */
+html, body, ul, li, h1, h2, h3, h4, p, form {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+   
+  }
+  #nav{
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navbar {
+    display: flex;
+    width: 80%;
+    
+    justify-content: space-between;
+    align-items: center;
+    color: #6C63FF;
+   
+  }
+  
+  header {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  section {
+    padding: 40px 0;
+  }
+  
+  #hero {
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #333;
+    height: 400px;
+  }
+  
+  #hero h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  .search-container {
+    margin: 20px;
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 5px 10px;
+  }
+  
+  #searchResults {
+    margin-top: 20px;
+  }
+  
+  
+  footer {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 10px;
+  }
+  
